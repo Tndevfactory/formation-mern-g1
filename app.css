@@ -1,0 +1,12 @@
+body {
+  background-color: lightgray;
+}
+
+.info {
+  height: 100px;
+  background-color: blueviolet;
+}
+
+.formContainer {
+  background-color: #d8d6d6;
+}
