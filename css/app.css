@@ -8,13 +8,14 @@ body {
 .formContainer {
   background-color: #f3f3f3;
   height: 100vh;
+  min-width: 400px;
 }
 .footer_login {
   background-color: black;
   color: white;
 }
 form {
-  min-width: 350px;
+  min-width: 400px;
 }
 
 @media only screen and (max-width: 600px) {
