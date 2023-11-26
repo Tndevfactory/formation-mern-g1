@@ -1,4 +1,4 @@
-/* login */
+/* page index.html */
 body {
   background-color: #f3f3f3;
   font-family: "Poppins", sans-serif;
@@ -28,8 +28,9 @@ form {
   }
 }
 
-/* dashboard */
-.dashboard_login {
-  background-color: black;
-  color: white;
+/* page form_temperature */
+#form_temperature {
+  min-width: 400px;
+  border: 3px #077ead solid;
+  padding: 222px;
 }

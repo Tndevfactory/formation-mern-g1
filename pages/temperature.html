@@ -29,13 +29,21 @@
 
   <body>
     <div class="formContainer d-flex justify-content-center align-items-center">
-      <div class="bg-white rounded-2 pt-3 pb-3 shadow border border-1">
-        <form id="form" class="bg-white p-2 rounded-2">
+      <div class="rounded-2">
+        <form id="form_temperature" class="bg-white p-2 rounded-2 shadow">
           <i
-            class="fa-solid fa-temperature-full"
-            style="font-size: 20px; text-align: center; display: block"
+            class="fa-solid fa-temperature-full py-3"
+            style="
+              color: #077ead;
+              font-size: 20px;
+              text-align: center;
+              display: block;
+            "
           ></i>
-          <h5 class="text-center" style="font-size: 19px; margin-bottom: 25px">
+          <h5
+            class="text-center pb-3"
+            style="font-size: 19px; margin-bottom: 25px"
+          >
             Convertisseur de temperature
           </h5>
           <div class="mb-3">
@@ -57,8 +65,9 @@
             <input
               type="text"
               name="fahr"
-              class="form-control form-control-sm"
+              class="form-control form-control-sm text-primary"
               id="fahr"
+              readonly
             />
           </div>
           <div class="mb-3">
@@ -68,8 +77,9 @@
             <input
               type="text"
               name="kelv"
-              class="form-control form-control-sm"
+              class="form-control form-control-sm text-primary"
               id="kelv"
+              readonly
             />
           </div>
         </form>
